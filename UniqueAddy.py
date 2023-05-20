@@ -24,8 +24,6 @@ def get_stake_address(cardano_address):
 with open('addresses.json', 'r') as f:
     addresses = json.load(f)
 
-blockfrost_project_id = "mainnetNB4ziF4Pe6SBaaJ3UGWHPkgJmJbweGeS"
-
 
 stake_address_counts = {}
 
